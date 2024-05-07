@@ -1,0 +1,325 @@
+yt-live-chat-ticker-paid-message-item-renderer,
+yt-live-chat-ticker-paid-message-item-renderer *,
+yt-live-chat-ticker-sponsor-item-renderer,
+yt-live-chat-ticker-sponsor-item-renderer * {
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+}
+
+position: absolute;
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+	overflow: visible !important;
+	position: relative !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	height: 50px;
+	background-color: #00000000;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+	z-index: 2;
+	top: -10px;
+	left: -25px;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 30px);
+	height: 50px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #eee;
+	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important; */
+	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
+
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column::before {
+	position: absolute;
+	bottom: -5px;
+	right: 46%;
+	content: "";
+	width: 30px;
+	height: 50px;
+	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat; */
+	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+	font-family: "庞门正道标题体";
+	color: #ffffff !important;
+	float: left;
+	margin-left: 10px;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+	line-height: 1 !important;
+	font-family: "庞门正道标题体" !important;
+	float: right;
+	color: #fff;
+	text-align: left;
+	margin: 0 10px 0 0;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+	display: none !important;
+	position: absolute !important;
+	top: -58px;
+	left: 25px;
+	height: 40px !important;
+	width: 40px !important;
+	overflow: visible !important;
+	z-index: 100 !important;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow img {
+	display: none !important;
+	height: 100% !important;
+	width: 100% !important;
+	border-radius: 10px !important;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+	padding: 60px 20px 0px 20px !important;
+	margin: 10px 0 !important;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card {
+	overflow: visible !important;
+	position: relative !important;
+	box-shadow: none !important;
+	height: 0;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+	overflow: hidden !important;
+	position: static !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	background-color: transparent !important;
+}
+
+/* 顶部背景 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+	z-index: 2;
+	position: absolute;
+	top: -70px;
+	left: -21px;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 22px);
+	height: 50px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #eee;
+	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important; */
+	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
+}
+
+/* 付费礼物用户名 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	float: left;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	color: rgb(255, 235, 162) !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: right;
+}
+
+/* 隐藏付费价格 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+	visibility: hidden;
+}
+
+/* 修改底下的卡片 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+	padding: 8px 70px !important;
+	position: relative !important;
+	margin: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+	border: 2px solid #00000000;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+	position: absolute;
+	top: -47px;
+	right: 0;
+	float: ri;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	text-align: right;
+	z-index: 9999;
+	color: rgb(255, 235, 162) !important;
+}
+
+/* 付费礼物底下的装饰 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content::before {
+	position: absolute;
+	bottom: 15px;
+	right: -18px;
+	content: "";
+	width: 360px;
+	height: 70px;
+	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat; */
+	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+/* giftname="superchat" */
+/* SC发言顶部背景 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] {
+	height: 50px;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #header {
+	overflow: hidden !important;
+	position: static !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	background-color: transparent !important;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-photo {
+	position: absolute !important;
+	top: 0;
+	left: 50%;
+	height: 45px !important;
+	width: 45px !important;
+	border: 2px solid #abcdd1;
+	transform: translate(-50%, 15%);
+	float: left;
+	text-align: center;
+	z-index: 9990000;
+}
+
+/* SC头像 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-photo img {
+	height: 45px !important;
+	width: 45px !important;
+}
+
+/* 顶部背景 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #header-content-primary-column {
+	z-index: 2;
+	position: absolute;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 10px 0 0 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 22px);
+	height: 90px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #abcdd1;
+	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E5%BA%95%E6%A1%86.png) 15 fill !important; */
+	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E5%BA%95%E6%A1%86.png) 15 fill !important;
+}
+
+/* 付费礼物用户名 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-name {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	float: left;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	color: #abcdd1 !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: center;
+	text-shadow: -0.5px -0.5px #ffffff80,
+		-0.5px 0px #ffffff80,
+		-0.5px 0.5px #ffffff80,
+		0px -0.5px #ffffff80,
+		0px 0px #ffffff80,
+		0px 0.5px #ffffff80,
+		0.5px -0.5px #ffffff80,
+		0.5px 0px #ffffff80,
+		0.5px 0.5px #ffffff80;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #message {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -70%);
+	float: left;
+	font-size: 25px;
+	font-family: "庞门正道标题体";
+	color: #abcdd1 !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: center;
+	text-shadow: -0.5px -0.5px #ffffff80,
+		-0.5px 0px #ffffff80,
+		-0.5px 0.5px #ffffff80,
+		0px -0.5px #ffffff80,
+		0px 0px #ffffff80,
+		0px 0.5px #ffffff80,
+		0.5px -0.5px #ffffff80,
+		0.5px 0px #ffffff80,
+		0.5px 0.5px #ffffff80;
+}
+
+/* yt-live-chat-paid-message-renderer[giftname="superchat"] #message::after {
+		content: "1234567890-drftygavhusjiodhjuabhfuiheuahfuia";
+	} */
+
+/* 隐藏付费价格 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #purchase-amount {
+	visibility: hidden;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content::after {
+	position: absolute;
+	content: "";
+	width: 390px;
+	float: left;
+	left: 50%;
+	bottom: 0px;
+	/* border: 2px solid crimson; */
+	height: 70px;
+	transform: translate(-50%, -50%);
+	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8A.png) no-repeat; */
+	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8A.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content::before {
+	position: absolute;
+	content: "";
+	float: left;
+	left: 50%;
+	top: 25px;
+	width: 390px;
+	height: 70px;
+	transform: translate(-50%, -50%);
+	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8B.png) no-repeat; */
+	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8B.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}

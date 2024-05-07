@@ -1,0 +1,855 @@
+* {
+	letter-spacing: 2.5px !important;
+}
+
+yt-live-chat-renderer {
+	background-color: transparent !important;
+	font-family: "庞门正道标题体";
+	/* text-shadow: -1px -1px #000000, -1px 0px #000000, -1px 1px #000000, 0px -1px #000000, 0px 0px #000000, 0px 1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000; */
+	font-size: 25px !important;
+	line-height: 20px !important;
+}
+
+yt-live-chat-ticker-renderer {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	display: none !important;
+}
+
+yt-live-chat-author-chip #author-name {
+	background-color: transparent !important;
+}
+
+yt-live-chat-item-list-renderer #item-scroller {
+	overflow: hidden !important;
+}
+
+yt-live-chat-text-message-renderer #content,
+yt-live-chat-membership-item-renderer #content {
+	overflow: visible !important;
+}
+
+yt-live-chat-header-renderer,
+yt-live-chat-message-input-renderer {
+	display: none !important;
+}
+
+yt-live-chat-text-message-renderer[is-deleted],
+yt-live-chat-membership-item-renderer[is-deleted] {
+	display: none !important;
+}
+
+yt-live-chat-mode-change-message-renderer,
+yt-live-chat-viewer-engagement-message-renderer,
+yt-live-chat-restricted-participation-renderer {
+	display: none !important;
+}
+
+yt-live-chat-text-message-renderer a,
+yt-live-chat-membership-item-renderer a {
+	text-decoration: none !important;
+}
+
+
+yt-live-chat-text-message-renderer {
+	margin-top: 5px;
+	position: relative;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	/* border: 2px solid seagreen; */
+	border-width: 0px 0px 0px 0px !important;
+	border-style: solid !important;
+	border-color: transparent !important;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E5%BC%B9%E5%B9%95%E5%BA%95%E6%A1%86%EF%BC%88%E9%80%9A%E7%94%A8%EF%BC%8C%E9%99%A4%E4%BA%86SC%EF%BC%89.png) 0 0 0 0 fill !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="1"]::after,
+yt-live-chat-text-message-renderer[author-type="2"]::after,
+yt-live-chat-text-message-renderer[author-type="3"]::after,
+yt-live-chat-text-message-renderer[author-type="moderator"]::after,
+yt-live-chat-text-message-renderer::after {
+	position: absolute;
+	content: "";
+	color: #00000000;
+	z-index: 1;
+	font-size: 0px;
+	background-color: #ffffff00;
+	white-space: break-spaces;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: visible;
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"]::after {
+	width: 350px;
+	height: 70px;
+	bottom: -2px;
+	right: -15px;
+	float: right;
+	background-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%80%BB%E7%9D%A3%E5%BC%B9%E5%B9%95/%E6%80%BB%E7%9D%A3%E8%A3%85%E9%A5%B0.png);
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"]::after {
+	width: 350px;
+	height: 55px;
+	right: -3px;
+	bottom: 3px;
+	background-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%8F%90%E7%9D%A3%E5%BC%B9%E5%B9%95/%E6%8F%90%E7%9D%A3%E8%A3%85%E9%A5%B0.png);
+	vertical-align: bottom;
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"]::after {
+	width: 340px;
+	height: 40px;
+	right: -2px;
+	bottom: 0;
+	background-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E8%88%B0%E9%95%BF%E5%BC%B9%E5%B9%95/%E8%88%B0%E9%95%BF%E8%A3%85%E9%A5%B0.png);
+}
+
+yt-live-chat-text-message-renderer::after {
+	width: 40px;
+	height: 30px;
+	right: 0px;
+	bottom: 25px;
+	float: right;
+	background-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E5%BC%B9%E5%B9%95/%E6%99%AE%E9%80%9A%E8%A3%85%E9%A5%B0.png);
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"]::after {
+	width: 340px;
+	height: 64px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E7%AE%A1%E7%90%86%E5%BC%B9%E5%B9%95/%E7%AE%A1%E7%90%86%E8%A3%85%E9%A5%B0.png);
+}
+
+yt-live-chat-paid-message-renderer #author-photo,
+yt-live-chat-paid-message-renderer #author-photo img {
+	width: 50px !important;
+	height: 50px !important;
+}
+
+yt-live-chat-text-message-renderer #author-photo {
+	line-height: 200px;
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 50px !important;
+	margin-right: 11.25px !important;
+	border: 2px solid white;
+	z-index: 2;
+}
+
+yt-live-chat-text-message-renderer #author-photo img {
+	line-height: 200px;
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 50px !important;
+	display: flex;
+	align-items: center;
+	margin-right: 11.25px !important;
+	z-index: 2;
+}
+
+yt-live-chat-text-message-renderer #author-name[type="moderator"] {
+	color: rgb(112, 142, 144) !important;
+}
+
+yt-live-chat-text-message-renderer #author-name {
+	position: absolute;
+	top: 1px;
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+	font-size: 25px !important;
+	line-height: 20px !important;
+}
+
+yt-live-chat-text-message-renderer #chat-badges {
+	display: none !important;
+	vertical-align: text-top !important;
+}
+
+yt-live-chat-author-medal-renderer {
+	display: none;
+}
+
+#medal-name.yt-live-chat-author-medal-renderer {
+	visibility: hidden;
+}
+
+#medal-level.yt-live-chat-author-medal-renderer {
+	visibility: hidden;
+}
+
+yt-live-chat-text-message-renderer #message {
+	width: 100%;
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+	font-size: 20px !important;
+	line-height: 20px !important;
+	display: inline !important;
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-name,
+yt-live-chat-text-message-renderer[privilegetype="3"] #message {
+	color: rgb(105, 108, 113) !important;
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-name,
+yt-live-chat-text-message-renderer[privilegetype="2"] #message {
+	color: rgb(85, 79, 101) !important;
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-name,
+yt-live-chat-text-message-renderer[privilegetype="1"] #message {
+	color: rgb(128, 124, 119) !important;
+}
+
+yt-live-chat-text-message-renderer #image-and-message {
+	width: 100%;
+	display: block !important;
+}
+
+#thread {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#thread img.yt-img-shadow {
+	visibility: hidden;
+	height: 0;
+
+}
+
+#thread #card yt-live-chat-author-chip {
+	display: none;
+}
+
+yt-live-chat-text-message-renderer #content {
+	margin-top: 0px;
+}
+
+/* 单独处理圆角 */
+yt-live-chat-text-message-renderer #thread>#card:first-child #content {
+	margin-top: 4px;
+}
+
+#thread>#card:first-child yt-live-chat-author-chip {
+	display: flex;
+}
+
+#thread>#card:first-child img.yt-img-shadow {
+	visibility: visible;
+	height: auto;
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+	width: auto !important;
+	height: 20px !important;
+}
+
+#image-and-message img[display="block"] {
+	border-radius: 4px;
+}
+
+#image-and-message img[display="inline"] {
+	position: relative;
+	top: 3px;
+	border-radius: 0px;
+}
+
+body {
+	overflow: visible;
+	background-color: rgba(0, 0, 0, 0);
+	width: 370px;
+}
+
+
+yt-live-chat-text-message-renderer,
+yt-live-chat-text-message-renderer[is-highlighted] {
+	background-color: rgba(204, 204, 204, 0) !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"],
+yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {}
+
+yt-live-chat-text-message-renderer[author-type="moderator"],
+yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {}
+
+yt-live-chat-text-message-renderer[author-type="member"],
+yt-live-chat-text-message-renderer[author-type="member"][is-highlighted]::after {}
+
+/* SuperChat/Fan Funding Messages */
+yt-live-chat-paid-message-renderer {
+	margin: 4px 0 !important;
+}
+
+yt-live-chat-paid-message-renderer #author-name,
+yt-live-chat-paid-message-renderer #author-name * {
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+	font-size: 20px !important;
+	line-height: 20px !important;
+}
+
+yt-live-chat-paid-message-renderer #content,
+yt-live-chat-paid-message-renderer #content *,
+yt-live-chat-paid-message-renderer #purchase-amount,
+yt-live-chat-paid-message-renderer #purchase-amount * {
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+	font-size: 20px !important;
+	line-height: 20px !important;
+}
+
+yt-live-chat-ticker-paid-message-item-renderer,
+yt-live-chat-ticker-paid-message-item-renderer *,
+yt-live-chat-ticker-sponsor-item-renderer,
+yt-live-chat-ticker-sponsor-item-renderer * {
+	color: #ffffff !important;
+	font-family: "庞门正道标题体";
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+	overflow: visible !important;
+	position: relative !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	height: 50px;
+	background-color: #00000000;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+	z-index: 2;
+	position: absolute;
+	top: -10px;
+	left: -25px;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 30px);
+	height: 50px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #eee;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
+
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column::before {
+	position: absolute;
+	bottom: -5px;
+	right: 46%;
+	content: "";
+	width: 30px;
+	height: 50px;
+	background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+	font-family: "庞门正道标题体";
+	color: #ffffff !important;
+	float: left;
+	margin-left: 10px;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+	line-height: 1 !important;
+	font-family: "庞门正道标题体" !important;
+	float: right;
+	color: #fff;
+	text-align: left;
+	margin: 0 10px 0 0;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+	display: none !important;
+	position: absolute !important;
+	top: -58px;
+	left: 25px;
+	height: 40px !important;
+	width: 40px !important;
+	overflow: visible !important;
+	z-index: 100 !important;
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow img {
+	display: none !important;
+	height: 100% !important;
+	width: 100% !important;
+	border-radius: 10px !important;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+	padding: 60px 20px 0px 20px !important;
+	margin: 10px 0 !important;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card {
+	overflow: visible !important;
+	position: relative !important;
+	box-shadow: none !important;
+	height: 0;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+	overflow: hidden !important;
+	position: static !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	background-color: transparent !important;
+}
+
+/* 顶部背景 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+	z-index: 2;
+	position: absolute;
+	top: -70px;
+	left: -21px;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 22px);
+	height: 50px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #eee;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
+}
+
+/* 付费礼物用户名 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	float: left;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	color: rgb(255, 235, 162) !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: right;
+}
+
+/* 隐藏付费价格 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+	visibility: hidden;
+}
+
+/* 修改底下的卡片 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+	padding: 8px 70px !important;
+	position: relative !important;
+	margin: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+	border: 2px solid #00000000;
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+	position: absolute;
+	top: -47px;
+	right: 0;
+	float: ri;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	text-align: right;
+	z-index: 9999;
+	color: rgb(255, 235, 162) !important;
+}
+
+/* 付费礼物底下的装饰 */
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content::before {
+	position: absolute;
+	bottom: 15px;
+	right: -18px;
+	content: "";
+	width: 360px;
+	height: 70px;
+	background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+/* giftname="superchat" */
+/* SC发言顶部背景 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] {
+	height: 50px;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #header {
+	overflow: hidden !important;
+	position: static !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 0 !important;
+	background-color: transparent !important;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-photo {
+	position: absolute !important;
+	top: 0;
+	left: 50%;
+	height: 45px !important;
+	width: 45px !important;
+	border: 2px solid #abcdd1;
+	transform: translate(-50%, 15%);
+	float: left;
+	text-align: center;
+	z-index: 9990000;
+}
+
+/* SC头像 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-photo img {
+	height: 45px !important;
+	width: 45px !important;
+}
+
+/* 顶部背景 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #header-content-primary-column {
+	z-index: 2;
+	position: absolute;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row !important;
+	margin: 10px 0 0 0 !important;
+	padding: 0 !important;
+	width: calc(100% + 22px);
+	height: 90px;
+	border-width: 10px !important;
+	border-style: solid;
+	border-color: #abcdd1;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E5%BA%95%E6%A1%86.png) 15 fill !important;
+}
+
+/* 付费礼物用户名 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #author-name {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	float: left;
+	font-size: 28px;
+	font-family: "庞门正道标题体";
+	color: #abcdd1 !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: center;
+	text-shadow: -0.5px -0.5px #ffffff80,
+		-0.5px 0px #ffffff80,
+		-0.5px 0.5px #ffffff80,
+		0px -0.5px #ffffff80,
+		0px 0px #ffffff80,
+		0px 0.5px #ffffff80,
+		0.5px -0.5px #ffffff80,
+		0.5px 0px #ffffff80,
+		0.5px 0.5px #ffffff80;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #message {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -70%);
+	float: left;
+	font-size: 25px;
+	font-family: "庞门正道标题体";
+	color: #abcdd1 !important;
+	padding: 4px 0px 4px 0px !important;
+	text-align: center;
+	text-shadow: -0.5px -0.5px #ffffff80,
+		-0.5px 0px #ffffff80,
+		-0.5px 0.5px #ffffff80,
+		0px -0.5px #ffffff80,
+		0px 0px #ffffff80,
+		0px 0.5px #ffffff80,
+		0.5px -0.5px #ffffff80,
+		0.5px 0px #ffffff80,
+		0.5px 0.5px #ffffff80;
+}
+
+/* yt-live-chat-paid-message-renderer[giftname="superchat"] #message::after {
+	content: "1234567890-drftygavhusjiodhjuabhfuiheuahfuia";
+} */
+
+/* 隐藏付费价格 */
+yt-live-chat-paid-message-renderer[giftname="superchat"] #purchase-amount {
+	visibility: hidden;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content::after {
+	position: absolute;
+	content: "";
+	width: 390px;
+	float: left;
+	left: 50%;
+	bottom: 0px;
+	/* border: 2px solid crimson; */
+	height: 70px;
+	transform: translate(-50%, -50%);
+	background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8A.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content::before {
+	position: absolute;
+	content: "";
+	float: left;
+	left: 50%;
+	top: 25px;
+	width: 390px;
+	height: 70px;
+	transform: translate(-50%, -50%);
+	background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8B.png) no-repeat;
+	background-size: 100%;
+	z-index: 120;
+	overflow: visible;
+}
+
+
+/* 上舰样式（舰长） */
+yt-live-chat-membership-item-renderer[privilegetype="3"] {
+	margin: 10px 0 !important;
+	overflow: visible !important;
+	padding: 0 23px 0 20px !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card {
+	position: relative !important;
+	overflow: visible !important;
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header {
+	background-color: transparent !important;
+	position: relative !important;
+	height: 70px;
+	width: 100%;
+	margin-right: 10px;
+	align-self: center;
+	border: 20px solid #fd0000 !important;
+	z-index: 100;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-img-shadow img {
+	position: absolute !important;
+	height: 65px;
+	width: 65px;
+	float: right;
+	top: 13%;
+	right: -209px;
+	background-color: #ffffff;
+	border: 4px solid rgb(106, 109, 114) !important;
+	z-index: 2;
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header-content,
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header-content,
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header-content {
+	position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-img-shadow {
+	position: absolute !important;
+	top: -5px;
+	left: 18px;
+	height: 145px !important;
+	width: 145px !important;
+	overflow: visible !important;
+	z-index: -10 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header-content-primary-column,
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header-content-primary-column,
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header-content-primary-column {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	width: 100% !important;
+	padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-live-chat-author-chip {
+	position: absolute !important;
+	top: 5px;
+	left: calc(50% + 25px);
+	transform: translate(-50%, 80%);
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #author-name {
+	white-space: nowrap;
+	font-size: 25px;
+	font-family: "庞门正道标题体";
+	color: rgb(106, 109, 114) !important;
+	line-height: 1;
+	text-align: left;
+	position: relative !important;
+}
+
+
+
+/* 上舰样式（提督） */
+yt-live-chat-membership-item-renderer[privilegetype="2"] {
+	margin: 10px 0 !important;
+	overflow: visible !important;
+	padding: 0 23px 0 20px !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card {
+	position: relative !important;
+	overflow: visible !important;
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header {
+	background-color: transparent !important;
+	position: relative !important;
+	height: 47px;
+	width: 100%;
+	align-self: center;
+	border: 10px solid #fd0000 !important;
+	z-index: 100;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-img-shadow img {
+	position: absolute !important;
+	height: 65px;
+	width: 65px;
+	float: right;
+	top: 3px;
+	right: -204px;
+	background-color: #ffffff;
+	border: 4px solid rgb(88, 80, 103) !important;
+	z-index: 2;
+}
+
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-img-shadow {
+	position: absolute !important;
+	top: -5px;
+	left: 18px;
+	height: 145px !important;
+	width: 145px !important;
+	overflow: visible !important;
+	z-index: -10 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-live-chat-author-chip {
+	position: absolute !important;
+	top: 5px;
+	left: calc(50% + 20px);
+	transform: translate(-65%, 70%);
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #author-name {
+	white-space: nowrap;
+	font-size: 25px;
+	font-family: "庞门正道标题体";
+	color: rgb(88, 80, 103) !important;
+	line-height: 1;
+	text-align: left;
+	position: relative !important;
+}
+
+/* 上舰样式（总督） */
+yt-live-chat-membership-item-renderer[privilegetype="1"] {
+	margin: 10px 0 !important;
+	overflow: visible !important;
+	padding: 0 23px 0 20px !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card {
+	position: relative !important;
+	overflow: visible !important;
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header {
+	background-color: transparent !important;
+	position: relative !important;
+	height: 54px;
+	width: 100%;
+	margin-right: 10px;
+	align-self: center;
+	border: 10px solid #fd0000 !important;
+	z-index: 100;
+	border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-img-shadow img {
+	position: absolute !important;
+	height: 65px;
+	width: 65px;
+	float: right;
+	top: 5%;
+	right: -209px;
+	background-color: #ffffff;
+	border: 4px solid rgb(128, 124, 121) !important;
+	z-index: 2;
+}
+
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-img-shadow {
+	position: absolute !important;
+	top: -5px;
+	left: 18px;
+	height: 145px !important;
+	width: 145px !important;
+	overflow: visible !important;
+	z-index: -10 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-live-chat-author-chip {
+	position: absolute !important;
+	top: 5px;
+	left: calc(50% + 20px);
+	transform: translate(-50%, 75%);
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #author-name {
+	white-space: nowrap;
+	font-size: 25px;
+	font-family: "庞门正道标题体";
+	color: rgb(128, 124, 121) !important;
+	line-height: 1;
+	text-align: left;
+	position: relative !important;
+}
+
+yt-live-chat-membership-item-renderer #header-subtext {
+	display: none !important;
+}
+
+/* Animation */
+@keyframes anim {
+	0% {
+		opacity: 0;
+		transform: translateX(-16px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+
+yt-live-chat-text-message-renderer,
+yt-live-chat-membership-item-renderer,
+yt-live-chat-paid-message-renderer {
+	animation: anim 400ms;
+	animation-fill-mode: both;
+}
