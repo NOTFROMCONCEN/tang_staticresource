@@ -33,7 +33,6 @@ yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primar
 	border-width: 10px !important;
 	border-style: solid;
 	border-color: #eee;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important; */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
 
 }
@@ -45,7 +44,6 @@ yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primar
 	content: "";
 	width: 30px;
 	height: 50px;
-	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat; */
 	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9/%E5%85%8D%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
 	background-size: 100%;
 	z-index: 120;
@@ -124,7 +122,6 @@ yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-prima
 	border-width: 10px !important;
 	border-style: solid;
 	border-color: #eee;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important; */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E5%BA%95%E6%A1%86.png) 15 fill !important;
 }
 
@@ -176,7 +173,6 @@ yt-live-chat-paid-message-renderer:not([show-only-header]) #content::before {
 	content: "";
 	width: 360px;
 	height: 70px;
-	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat; */
 	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9/%E4%BB%98%E8%B4%B9%E7%A4%BC%E7%89%A9%E8%A3%85%E9%A5%B0.png) no-repeat;
 	background-size: 100%;
 	z-index: 120;
@@ -232,7 +228,6 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #header-content-primary
 	border-width: 10px !important;
 	border-style: solid;
 	border-color: #abcdd1;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E5%BA%95%E6%A1%86.png) 15 fill !important; */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E5%BA%95%E6%A1%86.png) 15 fill !important;
 }
 
@@ -301,7 +296,6 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #content::after {
 	/* border: 2px solid crimson; */
 	height: 70px;
 	transform: translate(-50%, -50%);
-	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8A.png) no-repeat; */
 	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8A.png) no-repeat;
 	background-size: 100%;
 	z-index: 120;
@@ -317,7 +311,6 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #content::before {
 	width: 390px;
 	height: 70px;
 	transform: translate(-50%, -50%);
-	/* background: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8B.png) no-repeat; */
 	background: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/SC%E5%BC%B9%E5%B9%95/SC%E8%A3%85%E9%A5%B0%E4%B8%8B.png) no-repeat;
 	background-size: 100%;
 	z-index: 120;

@@ -19,7 +19,6 @@ yt-live-chat-membership-item-renderer[privilegetype="3"] #header {
 	align-self: center;
 	border: 20px solid #fd0000 !important;
 	z-index: 100;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4.png) 20 fill !important */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4/%E8%88%B0%E9%95%BF%E9%99%8D%E4%B8%B4.png) 20 fill !important
 }
 
@@ -100,7 +99,6 @@ yt-live-chat-membership-item-renderer[privilegetype="2"] #header {
 	align-self: center;
 	border: 10px solid #fd0000 !important;
 	z-index: 100;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%8F%90%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important
 }
 
@@ -165,7 +163,6 @@ yt-live-chat-membership-item-renderer[privilegetype="1"] #header {
 	align-self: center;
 	border: 10px solid #fd0000 !important;
 	z-index: 100;
-	/* border-image: url(https://rabbittang_admin.gitee.io/gallery-2/danmuIMG/20230202/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important */
 	border-image: url(http://notfromconcen.github.io/tang_staticresource/danmuIMG/20230202/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4/%E6%80%BB%E7%9D%A3%E9%99%8D%E4%B8%B4.png) 20 fill !important
 }
 
